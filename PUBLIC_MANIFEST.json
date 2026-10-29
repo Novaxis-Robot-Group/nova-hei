@@ -1,0 +1,1217 @@
+{
+  "schema_version": 1,
+  "files": {
+    ".dockerignore": {
+      "mode": "100644",
+      "sha256": "77ec89dec9c1b3efd2f0c0f107bc7b66e3003691078b322a2ffb8f1274b0f0f5"
+    },
+    ".gitattributes": {
+      "mode": "100644",
+      "sha256": "886b58ceecb0b5faa1038abe7325e7fdeff15cd1f5699c37ad33587a060e2e7d"
+    },
+    ".gitignore": {
+      "mode": "100644",
+      "sha256": "ef3cbbcadfd3fc8978f89aad68367d7e59e87170c9b4c2677757a27c4782876e"
+    },
+    "LICENSE": {
+      "mode": "100644",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    "MANIFEST.in": {
+      "mode": "100644",
+      "sha256": "8dea4e554b3094b6b19befabeb99b02c3882511ffd7319deb326ebe106b67a53"
+    },
+    "Makefile": {
+      "mode": "100644",
+      "sha256": "17e917410aedfc0773e1128504b1dab433ff131be5adb882445443d95b2baf93"
+    },
+    "NOTICE": {
+      "mode": "100644",
+      "sha256": "1ff07b4e71048116e51071b8d2d2af26f6d198aa185a301e0f96e854dcf9aa6e"
+    },
+    "README.md": {
+      "mode": "100644",
+      "sha256": "5c2c4abf8dd83d5bd20af3febbc932980058193427db3def3064e9ba614b17eb"
+    },
+    "README.zh-CN.md": {
+      "mode": "100644",
+      "sha256": "228b5883344276bffb3b45afbedb94a2fecb060661441e3f6987ae0e913f243d"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "mode": "100644",
+      "sha256": "9ed6af889fd86eabe9ef44fa4c9c2fc16387892db9b762c7991b0226bcca30b6"
+    },
+    "configs/agent.toml": {
+      "mode": "100644",
+      "sha256": "1b337b07940b30e3fc6fbcd13606705f39fa6dff5d245d385b3b9e2ac31f248d"
+    },
+    "configs/go2-lightnav.toml": {
+      "mode": "100644",
+      "sha256": "6c2181df6e97b37513c78213d3e38eafd2bf90bd15c1551bc6412dc77143057f"
+    },
+    "configs/mujoco-lightnav.toml": {
+      "mode": "100644",
+      "sha256": "dafa566fb721fe0596e9f1b63fdfcf3e3f7fed4cd9d9d6068610454e4224ab5e"
+    },
+    "configs/prompts/common.md": {
+      "mode": "100644",
+      "sha256": "91fa7d88d4e895abfee4d6eaba3416538d01588750372c4d435e8f265434158e"
+    },
+    "configs/prompts/go2-office.md": {
+      "mode": "100644",
+      "sha256": "5797ca896e9043a442ffb7dfe5a1261184046cbb7adf02c1081e4cdb3c3ee600"
+    },
+    "configs/prompts/scheduling.md": {
+      "mode": "100644",
+      "sha256": "b1c731db9b983be5f9b23426e4e346fa44a7a52497f54ea6f45e0f9e0a684651"
+    },
+    "deploy/.env.example": {
+      "mode": "100644",
+      "sha256": "d6c494ce6443d1daa611066a5ad4475b60a8fdfc3f3f987994a19e734ae6c574"
+    },
+    "deploy/agent/devserver.py": {
+      "mode": "100644",
+      "sha256": "bdd6a333fee1b692af46c72785b901854ae7571ef8e866fa5887293244e2382a"
+    },
+    "deploy/agent/requirements.txt": {
+      "mode": "100644",
+      "sha256": "0f19df304070c0a1ac6bb60877c1736c731f1cd3372e676470c20a881196cc3b"
+    },
+    "deploy/agent/run.sh": {
+      "mode": "100755",
+      "sha256": "d06a2d397fa4a42a46d8822673564587f60f5e0e3076b92de9ef1eae380f0f9a"
+    },
+    "deploy/agent/setup.sh": {
+      "mode": "100755",
+      "sha256": "2ee98a683a41959304221128e751b27f288520c12450a4aa93ea8b399171de12"
+    },
+    "deploy/common.sh": {
+      "mode": "100644",
+      "sha256": "9cac5a9f7e0215ff055a033f272e49eed82936040dfbdf7231d07dea256fd916"
+    },
+    "deploy/detector/Dockerfile": {
+      "mode": "100644",
+      "sha256": "fc6fe26fa10f47da66edfba6c484a08d59516a26783164bd8a5c06c9c75e8e85"
+    },
+    "deploy/detector/Dockerfile.dockerignore": {
+      "mode": "100644",
+      "sha256": "a1fad5cf5bc9ec4dee17a60a42447989ba3e18752b10e4cacd0b802b9db43205"
+    },
+    "deploy/detector/build.sh": {
+      "mode": "100755",
+      "sha256": "dcda8b3c04eb1d60b6759ad55d2f673593430da5d28146070094ed96d56c6508"
+    },
+    "deploy/detector/requirements.txt": {
+      "mode": "100644",
+      "sha256": "f4be0462034335b9465e559d2113a3507cc63b2e2efae39f2221cdfdd581cf3b"
+    },
+    "deploy/detector/run.sh": {
+      "mode": "100755",
+      "sha256": "17ac17cfdd4f872b42b0ea9140a542950c2420e69a5400e0803dbd128ba33252"
+    },
+    "deploy/go2/Dockerfile": {
+      "mode": "100644",
+      "sha256": "99690a1ac291bcbe6d9ed0743c5da12e79ae2b5eabbc5e93f2c3144be09d636d"
+    },
+    "deploy/go2/build.sh": {
+      "mode": "100755",
+      "sha256": "66ca012dae686b685d3a65fb2a8c46119f5e2c08c88945dc1acba54d90082468"
+    },
+    "deploy/go2/entrypoint.sh": {
+      "mode": "100755",
+      "sha256": "e8a8f67eeac253c0124fce09acc5496e70cbbc95c63466d98d695871f7cd2436"
+    },
+    "deploy/go2/run.sh": {
+      "mode": "100755",
+      "sha256": "b93fe9e0db33c3d9c45bfe1879a046b44d84428343ad6dc860ce0d89748ef6e6"
+    },
+    "deploy/go2/scripts/build.sh": {
+      "mode": "100755",
+      "sha256": "373e84bb2050651ebe1c375ae17af338acb16dd6efd1063c79b34c0fccf38f1e"
+    },
+    "deploy/go2/scripts/test-agent.sh": {
+      "mode": "100755",
+      "sha256": "036033bdc1354e2366c5676433e9e1c9d67bc27e71b5a26adbc4656a952da9c5"
+    },
+    "deploy/lightnav/build.sh": {
+      "mode": "100644",
+      "sha256": "25f8448af3dfe5aa48973e08c5878c5294882637f639c3de5a3887b3e583d444"
+    },
+    "deploy/lightnav/capture-time.patch": {
+      "mode": "100644",
+      "sha256": "3a36a6ffe7e9ac9c17d619fada27c86204b8c4c1d8fc1ed6b05d472a3e4bf6ba"
+    },
+    "deploy/lightnav/check_weights.py": {
+      "mode": "100644",
+      "sha256": "8d00e13c497efbcd9e3a2b0f0b63a34a4eca55ac159af909336d7fdf38754464"
+    },
+    "deploy/lightnav/entrypoint.sh": {
+      "mode": "100644",
+      "sha256": "2e45a0e5ad8e40425952199fab30749a0a407548144d9a138b1ec56b2042ddeb"
+    },
+    "deploy/lightnav/prepare.py": {
+      "mode": "100644",
+      "sha256": "e64fe0943668a3872f41d4a1e8e666a623220c372846c5fc48b76edd124f9854"
+    },
+    "deploy/lightnav/run.sh": {
+      "mode": "100644",
+      "sha256": "229c1032c2a76128e96fc0d81bfc8f70fa9366c00f7d3e5b7a8c92dfce2509ae"
+    },
+    "deploy/lightnav/setup.sh": {
+      "mode": "100644",
+      "sha256": "280b4dfd8a43c4071e885af9e913850e217338c76137c860d7d2f56a9049d69c"
+    },
+    "deploy/lightnav/sources.json": {
+      "mode": "100644",
+      "sha256": "e2bf1ac0a3be96b3596e7937bf4b915cbaf495c9c5bef4c436afd4cf1793213c"
+    },
+    "deploy/lightnav/test_capture_time.py": {
+      "mode": "100644",
+      "sha256": "bd80652a661ee847ea62ac137c225b57c704a16bba7379bf288fa0fbfcbb1a08"
+    },
+    "deploy/lightnav/thor/Dockerfile": {
+      "mode": "100644",
+      "sha256": "fcf1b8f5172a9ff15e235e78b51a3f45b7fe888eb6e77c40b99085180b323322"
+    },
+    "deploy/lightnav/thor/build_vllm_kernels.sh": {
+      "mode": "100644",
+      "sha256": "d44d59fb237f98aa701fceb1b0dc7ec4472556e17e07b4de8ff1aef766ecc3d6"
+    },
+    "deploy/lightnav/thor/constraints.txt": {
+      "mode": "100644",
+      "sha256": "84f4306c9c84c38bf93a090ce474edaa82dbd6f326690bad2b7e81d06459d745"
+    },
+    "deploy/lightnav/thor/entrypoint.sh": {
+      "mode": "100644",
+      "sha256": "e4d8c1122e3ec791f89a06e141d6f08dfd6ccea3e9a3d8f4508497b4905748c1"
+    },
+    "deploy/lightnav/thor/env.sh": {
+      "mode": "100644",
+      "sha256": "336dc4e332ec96220d3133c20ff429b722c2cd1ce48a71c2118cebffc17c43f9"
+    },
+    "deploy/lightnav/thor/fix_cusparselt_metadata.py": {
+      "mode": "100644",
+      "sha256": "6fb7b14174fc26b68fdc72d20f83d7bacf7961e9ca5aa9269a2e73d3b7e2a6f3"
+    },
+    "deploy/local.env.example": {
+      "mode": "100644",
+      "sha256": "c7775cb3d5c4ea3580b47e2f0413d5c72ab8d443cb4d1ba01e991ed85d3d0103"
+    },
+    "deploy/manage.sh": {
+      "mode": "100644",
+      "sha256": "d606593881359def3222aac59b10cd0dcc7c1dad61b7ff6f41d95a2766a4301e"
+    },
+    "deploy/session.py": {
+      "mode": "100644",
+      "sha256": "f670e150b291e7ee049a328d20356bd691fa87bb4be543d0c8f1455af1ad9df8"
+    },
+    "deploy/sim/bootstrap.sh": {
+      "mode": "100644",
+      "sha256": "9c9d843b3d292d11cad2890ca97bdbc636310614805867939632b44d9443058a"
+    },
+    "deploy/sim/requirements.txt": {
+      "mode": "100644",
+      "sha256": "688f2355b0ce6145f10bcf3fea5772130a851e464032635eab20420113e82bec"
+    },
+    "deploy/sim/run.sh": {
+      "mode": "100755",
+      "sha256": "bc76cc0d21e823e8c65bfeaac55fa4a75fc82f47f1b24c85f5337ab3300cc663"
+    },
+    "deploy/sim/setup.sh": {
+      "mode": "100755",
+      "sha256": "404ea0f3fcff560f7457a05dbcb639f535d762038e1ef5e0e1ea74cd062c9eae"
+    },
+    "docs/assets/architecture.svg": {
+      "mode": "100644",
+      "sha256": "4c7153b6def334bb8525b05c067f6bb64d4f545d07881c53e4bdfe2a8a023751"
+    },
+    "docs/en/configuration.md": {
+      "mode": "100644",
+      "sha256": "6f7de3418a5fc1f83847f4849cf52f9bf06ad08a9c1dda2ef48e7ec3cb3b9432"
+    },
+    "docs/en/deployment.md": {
+      "mode": "100644",
+      "sha256": "70e3b428453ae328aedb740a4717e551f286967c40ded2ffb7f5de3024222ee5"
+    },
+    "docs/en/go2.md": {
+      "mode": "100644",
+      "sha256": "65ed4005dc9ccd38f4f440eba33d0e447c21e9c95bdb69ade62696c6d9022f5b"
+    },
+    "docs/en/integration.md": {
+      "mode": "100644",
+      "sha256": "e0e63a188ee71b4148fe42f4055458298b58f6c6d52ffea65596ff6f2888e71b"
+    },
+    "docs/en/mujoco.md": {
+      "mode": "100644",
+      "sha256": "37bd43f8ee89d030b10858fc1c2e278a64ecbebb878204760c5f34f1d503d295"
+    },
+    "docs/en/replay.md": {
+      "mode": "100644",
+      "sha256": "41333ebb6089dd69d426da79d46af6580f954275586f2939b2553c0705455888"
+    },
+    "docs/lightnav-source.json": {
+      "mode": "100644",
+      "sha256": "da1d9ddb45a199e753b327c4d6494a5b29c0d30d93bb3f787282fb15e78d92ac"
+    },
+    "docs/zh/configuration.md": {
+      "mode": "100644",
+      "sha256": "3a1eb9d86a99e78e484ddf115af888a98382a08ff6d674b9fcc39d4938bcc85c"
+    },
+    "docs/zh/deployment.md": {
+      "mode": "100644",
+      "sha256": "402d48064bea47d2e4549a5f8b93ef5654b8b18c8af3b21910e5d2ff5d9d166d"
+    },
+    "docs/zh/go2.md": {
+      "mode": "100644",
+      "sha256": "054806a1573297a1cc9de0f2fd39dfb1225fd319197866b04ff9ba193ee1b2d0"
+    },
+    "docs/zh/integration.md": {
+      "mode": "100644",
+      "sha256": "4f5c7e896ad0e5619bfc931be54fbb94bf7ee0554c8b64183989ee4f12b0344e"
+    },
+    "docs/zh/mujoco.md": {
+      "mode": "100644",
+      "sha256": "1061a464a3343e8a7dcb1a01cd0837c482802978061aaacf44b779bbd59eae08"
+    },
+    "docs/zh/replay.md": {
+      "mode": "100644",
+      "sha256": "b76c6e321d8dfa6308e9ac91b5b42d7a517f042ca50b6ab01619856029e69ebe"
+    },
+    "examples/custom_backend.py": {
+      "mode": "100644",
+      "sha256": "cc312073e514ff99e68e9a987c2565349f4b2703a6bd563d57b6545f1efbc4e8"
+    },
+    "examples/custom_vln.py": {
+      "mode": "100644",
+      "sha256": "28aa43d26de75666b0fe9b8c5024a0478170c316aa172668754ca1b8ddaa7610"
+    },
+    "pyproject.toml": {
+      "mode": "100644",
+      "sha256": "b9e1bb241769689c96f1ca25b787e22c010dbf1a33116c4c50c2882c1aec1d79"
+    },
+    "setup.py": {
+      "mode": "100644",
+      "sha256": "dc7f2397f12a02ab0f76340c5b8ea3568bef4f8b4ad19f8949308db3ad9755d2"
+    },
+    "src/nova_hei/__init__.py": {
+      "mode": "100644",
+      "sha256": "0266c51ef988e52387cac7b867e980a91d54a935ef08d36b6110cfddbb50efa4"
+    },
+    "src/nova_hei/agent/__init__.py": {
+      "mode": "100644",
+      "sha256": "15a3efd2112b77d6aa487349ac6de8425e073f15277a22b769edd5db67d288ff"
+    },
+    "src/nova_hei/agent/config.py": {
+      "mode": "100644",
+      "sha256": "b369c55e93d63d29b49a7b25ba2a2de4a29611c17ce6969278042d045f5325f8"
+    },
+    "src/nova_hei/agent/context/__init__.py": {
+      "mode": "100644",
+      "sha256": "fc17e6c908d360a3ccc5c93a5de89a95f56f4b616f109f3d0b6e6f571654e3fc"
+    },
+    "src/nova_hei/agent/context/builder.py": {
+      "mode": "100644",
+      "sha256": "9a4d263ed53c49deb6843bcf5d2919a89b31d00f99af1e7f23a3c8599098ee3b"
+    },
+    "src/nova_hei/agent/context/images.py": {
+      "mode": "100644",
+      "sha256": "8e070f13c5e704d22ab24b78901d8690eaa8bcc421a7f59b29905fd927807361"
+    },
+    "src/nova_hei/agent/context/prompts.py": {
+      "mode": "100644",
+      "sha256": "6ac1b093bae00be5371c597aec9825cae1738cc6dc23f352d183b62b87557ab0"
+    },
+    "src/nova_hei/agent/core/__init__.py": {
+      "mode": "100644",
+      "sha256": "a1cc94b9c8377fa848a26a77880abc1a708d5a01b67bff9546b530eceeab037c"
+    },
+    "src/nova_hei/agent/core/loop.py": {
+      "mode": "100644",
+      "sha256": "0ca1ca97a42588408b41ebde584f79c79b68dc1f000edd0df5c52505b49cfc94"
+    },
+    "src/nova_hei/agent/core/runner.py": {
+      "mode": "100644",
+      "sha256": "bc4e05121d27a4009a345310d9f90a7c411082c254b470fc66427e42d1eb78b6"
+    },
+    "src/nova_hei/agent/core/scheduling.py": {
+      "mode": "100644",
+      "sha256": "ac76f162b9f0cbe0d9dea28ab264115baf0b487f43dd926314d7a0cc33fe586a"
+    },
+    "src/nova_hei/agent/memory/__init__.py": {
+      "mode": "100644",
+      "sha256": "3bdb5f73d1b4459b41f421028e868df0f7354ed9c5c3c9cefd29e3433a9122b2"
+    },
+    "src/nova_hei/agent/memory/spatial.py": {
+      "mode": "100644",
+      "sha256": "cc1b4d5a01ac3e7a96e9b78d2cbf2451cc95843a3b3e9f3d16d11bd5e8a1d167"
+    },
+    "src/nova_hei/agent/memory/topology.py": {
+      "mode": "100644",
+      "sha256": "090fcbdc87b85fe9a0f9bb6d5a614c63eff402aab1639361b1dfd2cf98161bf7"
+    },
+    "src/nova_hei/agent/memory/trajectory.py": {
+      "mode": "100644",
+      "sha256": "69c3efde74d413843c1c6b0359fbf446550cfe7ab64a6df90ea85ff0d7e45240"
+    },
+    "src/nova_hei/agent/model/__init__.py": {
+      "mode": "100644",
+      "sha256": "fc17e6c908d360a3ccc5c93a5de89a95f56f4b616f109f3d0b6e6f571654e3fc"
+    },
+    "src/nova_hei/agent/model/client.py": {
+      "mode": "100644",
+      "sha256": "abd42c743f0b370835ae85e4dd8331ba78f2a3b0383d0e957549214957247bd4"
+    },
+    "src/nova_hei/agent/model/completion.py": {
+      "mode": "100644",
+      "sha256": "3e3e11dd59e720e2bb5ff2ca2e485b0365b8101c21ec149c8d01b256dd4dc180"
+    },
+    "src/nova_hei/agent/model/decision.py": {
+      "mode": "100644",
+      "sha256": "35f380593446be996adc58e6eb41b937d445ace53e609d4a83ad382e4302caa1"
+    },
+    "src/nova_hei/agent/model/goal.py": {
+      "mode": "100644",
+      "sha256": "53f231db4add7d69817273f3dcbba9fc81e1d586b722795c61c06a731f8d7e80"
+    },
+    "src/nova_hei/agent/model/observation.py": {
+      "mode": "100644",
+      "sha256": "51c4e3a66cd7b17b99b96f59ec96a1583704745b1b2ebcaea35922fc33d417b4"
+    },
+    "src/nova_hei/agent/schemas.py": {
+      "mode": "100644",
+      "sha256": "7a6d7d36e39a958000218bb4bf27042ce46853a13bf080bbe7693cbdde446a35"
+    },
+    "src/nova_hei/agent/skills/__init__.py": {
+      "mode": "100644",
+      "sha256": "fc17e6c908d360a3ccc5c93a5de89a95f56f4b616f109f3d0b6e6f571654e3fc"
+    },
+    "src/nova_hei/agent/skills/approach_target.py": {
+      "mode": "100644",
+      "sha256": "f24c33b2f42da9808b63840cf3558179e1e3a8a590a4eff96fda646cc9636295"
+    },
+    "src/nova_hei/agent/skills/object_search/__init__.py": {
+      "mode": "100644",
+      "sha256": "fc17e6c908d360a3ccc5c93a5de89a95f56f4b616f109f3d0b6e6f571654e3fc"
+    },
+    "src/nova_hei/agent/skills/object_search/context.py": {
+      "mode": "100644",
+      "sha256": "ba780ffb186d60eebcdd481c79339b71931a2fa8d7320f3f55d2f1d6ecc21cd4"
+    },
+    "src/nova_hei/agent/skills/object_search/rules.py": {
+      "mode": "100644",
+      "sha256": "a39015aa55871086444f3142d3f0419ffa599eb4b18f8e55045de34dc344b846"
+    },
+    "src/nova_hei/agent/skills/object_search/selective.py": {
+      "mode": "100644",
+      "sha256": "d312f5ad44343a097c1f79694a98f58f7f1db6fceebf72d3c9c4127fafe2f267"
+    },
+    "src/nova_hei/agent/skills/object_search/state.py": {
+      "mode": "100644",
+      "sha256": "c4379977a9a07df051fb6e432d2ce09b054c2913b3ca14430cf46dd03f9835c1"
+    },
+    "src/nova_hei/agent/skills/object_search/target.py": {
+      "mode": "100644",
+      "sha256": "5e52573ea522759e617bfb6e92fd2c3a88d0e4c3434ee172ef0a5d262c00dfc0"
+    },
+    "src/nova_hei/agent/skills/registry.py": {
+      "mode": "100644",
+      "sha256": "fd90a8870feaa4f2f7a0347ea9a109137e3b07e71a1c5f62229b7c24da73e74c"
+    },
+    "src/nova_hei/agent/skills/scan/__init__.py": {
+      "mode": "100644",
+      "sha256": "86ee6135b32e66b90732509522465b21fb4152c8a707f97ea4b4ad26477451de"
+    },
+    "src/nova_hei/agent/skills/scan/skill.py": {
+      "mode": "100644",
+      "sha256": "ae1f7ff66c8490087eb98f5b3991d9eb47b7c1697ef7f868544ef381edb1b6f3"
+    },
+    "src/nova_hei/agent/skills/search_navigation.py": {
+      "mode": "100644",
+      "sha256": "e3368ef980419f4130a15f736c64047fad201b1553fa0074e5743fb839e82b0d"
+    },
+    "src/nova_hei/agent/storage/__init__.py": {
+      "mode": "100644",
+      "sha256": "fc17e6c908d360a3ccc5c93a5de89a95f56f4b616f109f3d0b6e6f571654e3fc"
+    },
+    "src/nova_hei/agent/storage/logs.py": {
+      "mode": "100644",
+      "sha256": "46b2067d7ffb55aad8a1f24a9b18a8408120216652ca17577e4427bb1406a6c7"
+    },
+    "src/nova_hei/agent/storage/memory_sections.py": {
+      "mode": "100644",
+      "sha256": "3576ebbf209e0bbb66a3a2c728ec3c86bf254ccce2b1b869507bb5fa07eb1120"
+    },
+    "src/nova_hei/agent/storage/memory_visualize.py": {
+      "mode": "100644",
+      "sha256": "c825a7c1954f91d14ea78a811870af5b26bc2a124214165ca4d5dd9178ae1c28"
+    },
+    "src/nova_hei/agent/storage/report.py": {
+      "mode": "100644",
+      "sha256": "dc019ae33d51150975fe5a24f98f51f247893ce171e4b140996e33cad2778610"
+    },
+    "src/nova_hei/agent/storage/terminal.py": {
+      "mode": "100644",
+      "sha256": "3cdfc04b4ac21e82ce315dbb5c5ca622386a6adf5ae08b5213db9ec367a00bcd"
+    },
+    "src/nova_hei/agent/tools/__init__.py": {
+      "mode": "100644",
+      "sha256": "9046dff1461917d61804e86652f1da812ad62d81c1b2bf667188e245462dc5fe"
+    },
+    "src/nova_hei/agent/tools/capture.py": {
+      "mode": "100644",
+      "sha256": "520a8b465e13f7e394e7d78fec424f1d7166e8bb19c5e63b005f6b0498656ebe"
+    },
+    "src/nova_hei/agent/tools/navigation.py": {
+      "mode": "100644",
+      "sha256": "c6662665b9654b05ac486bdfe5f3798503dc2fdd33f32db3da6ab5a600d7792e"
+    },
+    "src/nova_hei/agent/tools/registry.py": {
+      "mode": "100644",
+      "sha256": "ebab0ed9fb5d6baedefb04965a2c824723c163e229f5676cd629c574dc88892e"
+    },
+    "src/nova_hei/agent/tools/target_watch.py": {
+      "mode": "100644",
+      "sha256": "7c7a88742a4efc83c8b6494d0441f67d9335bdf581e608805b30e8bc986416a2"
+    },
+    "src/nova_hei/app/__init__.py": {
+      "mode": "100644",
+      "sha256": "422f9b30a7f30a9fe264728238050ce5d59967b5f720b98556a95373009a0429"
+    },
+    "src/nova_hei/app/agent/__init__.py": {
+      "mode": "100644",
+      "sha256": "fc17e6c908d360a3ccc5c93a5de89a95f56f4b616f109f3d0b6e6f571654e3fc"
+    },
+    "src/nova_hei/app/agent/api.py": {
+      "mode": "100644",
+      "sha256": "71a3490ead8fca9ca8955aca525574ab62bdeb1d7288fc1a54ad0afaee4db0a4"
+    },
+    "src/nova_hei/app/agent/demo.py": {
+      "mode": "100644",
+      "sha256": "3dee45feaefe9e9d398d6fa96e50fd7053879fa4966a34b3ea7755b080575f7e"
+    },
+    "src/nova_hei/app/agent/main.py": {
+      "mode": "100644",
+      "sha256": "bdae23ed14d052e5ccc3998c88dc8a48a5118652f992ca1da9386f74c1c2e151"
+    },
+    "src/nova_hei/app/agent/settings.py": {
+      "mode": "100644",
+      "sha256": "3193eee08f0766c26abcbdf2a7f73244a76b02f0f36e3cc048c2c80803788ff7"
+    },
+    "src/nova_hei/app/deployments/__init__.py": {
+      "mode": "100644",
+      "sha256": "fc17e6c908d360a3ccc5c93a5de89a95f56f4b616f109f3d0b6e6f571654e3fc"
+    },
+    "src/nova_hei/app/deployments/check.py": {
+      "mode": "100644",
+      "sha256": "1b70a94e0e21b20d957d6af64cb5e1c6fa15d1bb56b209af566b15a5b095c648"
+    },
+    "src/nova_hei/app/deployments/factory.py": {
+      "mode": "100644",
+      "sha256": "8bc58a6b6ff022dc0b6d240f2886f16456d50fed9b46c44c309f183ee2cb2ab9"
+    },
+    "src/nova_hei/app/deployments/runtime.py": {
+      "mode": "100644",
+      "sha256": "029c9bcfaf17e2420f1efe694b773c660b2ac96fcfff901a19ee9eb726bfe7c7"
+    },
+    "src/nova_hei/app/deployments/runtime_overrides.py": {
+      "mode": "100644",
+      "sha256": "196c11513321dd277f599bc55b3abdceef999a2781dee89e28aa2144d2073b42"
+    },
+    "src/nova_hei/app/deployments/scene.py": {
+      "mode": "100644",
+      "sha256": "4cafc1be4061173b94be2063672aa1473d3296f9b8aaeac441af2933fc94959a"
+    },
+    "src/nova_hei/app/deployments/settings.py": {
+      "mode": "100644",
+      "sha256": "bf2904f8af6f2aa00975939d6a4e636ca6c787850736d2f3bce51e5f34c7fbbc"
+    },
+    "src/nova_hei/app/deployments/vln.py": {
+      "mode": "100644",
+      "sha256": "6ca9c4c1ea1e4b9067147fd541b7e71486d058b2c3d95a32ece46a5950245ddf"
+    },
+    "src/nova_hei/app/detector/__init__.py": {
+      "mode": "100644",
+      "sha256": "cee53a0029375f36b0502e46686a6706d3d4b938080197f9524b99cb72f9b60c"
+    },
+    "src/nova_hei/app/detector/__main__.py": {
+      "mode": "100644",
+      "sha256": "c7c35390d215233c8234339ac2f5e1c2aaefd4886bcfc1fcdbab934cd7a5ac92"
+    },
+    "src/nova_hei/app/detector/engine.py": {
+      "mode": "100644",
+      "sha256": "d4a69bfbbde8e92c8e629b403aa6df95f9a3563f5401dc2a53d1c1a0a32a4690"
+    },
+    "src/nova_hei/app/detector/server.py": {
+      "mode": "100644",
+      "sha256": "9e4fa14190974b5c9683db1a89c0f347a84a8f2bad75225f00469ae8d3bc93f3"
+    },
+    "src/nova_hei/app/go2/__init__.py": {
+      "mode": "100644",
+      "sha256": "0266c51ef988e52387cac7b867e980a91d54a935ef08d36b6110cfddbb50efa4"
+    },
+    "src/nova_hei/app/go2/check.py": {
+      "mode": "100644",
+      "sha256": "6a7a96e7d8c3564455a11cf46173f65a0ce3539951579a323b70286627065c23"
+    },
+    "src/nova_hei/app/go2/connection.py": {
+      "mode": "100644",
+      "sha256": "ff9f4d08118518409915cc082d5c6809269d717ec07b315f832f1856ef90bc8d"
+    },
+    "src/nova_hei/app/go2/monitor.py": {
+      "mode": "100644",
+      "sha256": "35513f2363b416dc8d8602cc6d04019eebe70554d3cf6f32eae8f4157ed69aff"
+    },
+    "src/nova_hei/app/go2/motion_settings.py": {
+      "mode": "100644",
+      "sha256": "2298cc8adb9b31f84964b2b7a3768f12cd9dff77d950267565f13c7338eb924d"
+    },
+    "src/nova_hei/app/go2/recording.py": {
+      "mode": "100644",
+      "sha256": "b1db4bcc331b02b4dd4e45bc1d07730d5e2f50acd008be6757f36a68a1288c9c"
+    },
+    "src/nova_hei/app/go2/replay.py": {
+      "mode": "100644",
+      "sha256": "0b723345b9f217ddf382a8ac447f87e3f19c680a593b6b2a794c9ef65cc63623"
+    },
+    "src/nova_hei/app/go2/vln_bringup/CMakeLists.txt": {
+      "mode": "100644",
+      "sha256": "fd24bb2c867e9afddeb716d2b5e1e7d14705e6af257652d354de4547679dfa31"
+    },
+    "src/nova_hei/app/go2/vln_bringup/launch/go2.launch.py": {
+      "mode": "100644",
+      "sha256": "aaf68fa261a131194e633991a0a9c9151f8936fbb482072355bc317a5d51b780"
+    },
+    "src/nova_hei/app/go2/vln_bringup/package.xml": {
+      "mode": "100644",
+      "sha256": "f17d619caa1962fe7ea6ab93544873417783e4eda16a4c889b52f0332a8770f3"
+    },
+    "src/nova_hei/app/go2/vln_web/package.xml": {
+      "mode": "100644",
+      "sha256": "b96a282a34836423a6593ef36214837aa41fd9a4eb156b98b7462067b4265df9"
+    },
+    "src/nova_hei/app/go2/vln_web/resource/vln_web": {
+      "mode": "100644",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "src/nova_hei/app/go2/vln_web/setup.cfg": {
+      "mode": "100644",
+      "sha256": "eaa32c63631bc28c255457a6c1de10f0d0264a56b45ae77a39b2e042af3c97cd"
+    },
+    "src/nova_hei/app/go2/vln_web/setup.py": {
+      "mode": "100644",
+      "sha256": "67e7a1ee0455187d8d2ef0828b20c5c2a591eec2d24b70aafd17e559aef1992f"
+    },
+    "src/nova_hei/app/go2/vln_web/test/test_agent_interface.py": {
+      "mode": "100644",
+      "sha256": "0b66290071fe373027752a6bdac52f0b8550f0712da47550a90a434913d26c1f"
+    },
+    "src/nova_hei/app/go2/vln_web/test/test_web_node.py": {
+      "mode": "100644",
+      "sha256": "ccbca65a33bca0c6c334feacb34ea797b5a001c4120d5282cb454d81aaca96dd"
+    },
+    "src/nova_hei/app/go2/vln_web/test/test_web_server.py": {
+      "mode": "100644",
+      "sha256": "12167529492ea7e2b08da86bc5564fa03a811c57a2aebda281088d71c9538974"
+    },
+    "src/nova_hei/app/go2/vln_web/test/test_wifi.py": {
+      "mode": "100644",
+      "sha256": "4ace14f7a343d429ada8048919a87020206afa8c9dd21aa6d483026b51f18301"
+    },
+    "src/nova_hei/app/go2/vln_web/vln_web/__init__.py": {
+      "mode": "100644",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "src/nova_hei/app/go2/vln_web/vln_web/web_node.py": {
+      "mode": "100644",
+      "sha256": "f8d667948e3b9a299df1e7826115b82bd74f59e2fc599976555fb64d45718d0c"
+    },
+    "src/nova_hei/app/go2/vln_web/vln_web/web_server.py": {
+      "mode": "100644",
+      "sha256": "2e58ca09469baeeb34de606b7408204d64fefb11e297a2a1a208da45e3fd49cd"
+    },
+    "src/nova_hei/app/go2/vln_web/vln_web/wifi.py": {
+      "mode": "100644",
+      "sha256": "ad7b043f6ee6888579c5beb48977ba391e1464c20760d5d12aaef8ba18d5c0f8"
+    },
+    "src/nova_hei/app/go2/vln_web/web/app.js": {
+      "mode": "100644",
+      "sha256": "436b9aca72016643853e7d9998588b009cae9c5b517a14785f5227e90e8395f6"
+    },
+    "src/nova_hei/app/go2/vln_web/web/index.html": {
+      "mode": "100644",
+      "sha256": "9138fe047841c5fdceb40e5e4aa918a371a8d74141f3dbc4b21d95ebfe8cfc04"
+    },
+    "src/nova_hei/app/go2/vln_web/web/styles.css": {
+      "mode": "100644",
+      "sha256": "56b78a02713f19655f31f9fc12b75049e1c2d6c213ed2a95aabafebdcf6fe4de"
+    },
+    "src/nova_hei/app/main.py": {
+      "mode": "100644",
+      "sha256": "9287e259a143ffb7fd5e23338f664c04fb6d6aa97afb6946875aa03eb290c09e"
+    },
+    "src/nova_hei/app/mujoco/__init__.py": {
+      "mode": "100644",
+      "sha256": "0266c51ef988e52387cac7b867e980a91d54a935ef08d36b6110cfddbb50efa4"
+    },
+    "src/nova_hei/app/mujoco/connection.py": {
+      "mode": "100644",
+      "sha256": "eccaa7c830d1ae89c570c26bcd1100d0b5b9e559e2f3812364a449d8562bbd35"
+    },
+    "src/nova_hei/app/mujoco/console.py": {
+      "mode": "100644",
+      "sha256": "3e406b58bc1d8e556a4ffba0e7c773e9534a37be03799b68a972ac6304e143b3"
+    },
+    "src/nova_hei/app/mujoco/main.py": {
+      "mode": "100644",
+      "sha256": "004a4612704753aad71298641513a0c106943af7bf673620dc4b11a032bb5cc5"
+    },
+    "src/nova_hei/app/mujoco/recording.py": {
+      "mode": "100644",
+      "sha256": "116202c19bb783abd12cfb85f32c8d887cbf9bdcc07751112130403ccbd38db3"
+    },
+    "src/nova_hei/app/mujoco/replay.py": {
+      "mode": "100644",
+      "sha256": "aa26e4394b12ef916b42a6f4d196c3be113ea396a232d01b5aac52dae21e5ca8"
+    },
+    "src/nova_hei/app/mujoco/vln_runs.py": {
+      "mode": "100644",
+      "sha256": "b1532b6a4ea42dde86d9c615a949232b7deac7813ebeef08e7d515b3191440c2"
+    },
+    "src/nova_hei/app/navigation_server.py": {
+      "mode": "100644",
+      "sha256": "a5bb78a6c504a1a3e208c81a44e432be4764e7e14a98fea92038270c103bcf74"
+    },
+    "src/nova_hei/app/recording.py": {
+      "mode": "100644",
+      "sha256": "01cc7b8c376fb5fb105c79c0fc4cd1bcc94a2f7a97d1a65b6fbdb246f478746f"
+    },
+    "src/nova_hei/app/replay.py": {
+      "mode": "100644",
+      "sha256": "e60c5e7be23d65e9f44312812ceaf2f3ef2b52f85b18e0cc394c779dc0901ae3"
+    },
+    "src/nova_hei/app/reports/__init__.py": {
+      "mode": "100644",
+      "sha256": "0266c51ef988e52387cac7b867e980a91d54a935ef08d36b6110cfddbb50efa4"
+    },
+    "src/nova_hei/app/reports/main.py": {
+      "mode": "100644",
+      "sha256": "e39863b0e3451d528e0f2e656fe69cc4789fb1881bcb3b60e92960912731663a"
+    },
+    "src/nova_hei/app/web/monitor/app.js": {
+      "mode": "100644",
+      "sha256": "2f1ee23f3ec18d89950f5d58d6e42832b9dcbadae8c710ecd840d7d4567c088c"
+    },
+    "src/nova_hei/app/web/monitor/index.html": {
+      "mode": "100644",
+      "sha256": "b0626e7b57237fe24359f33ef67ff350ea7f8c11e49a70c827494d84f0b0d8ab"
+    },
+    "src/nova_hei/app/web/mujoco/app.js": {
+      "mode": "100644",
+      "sha256": "ad461b02fda3c1463274cbf3d75fa3e511f3695baadfbf4553a651423dc6c559"
+    },
+    "src/nova_hei/app/web/mujoco/index.html": {
+      "mode": "100644",
+      "sha256": "8e68c96072d92478b845cf788600d1a2347f8fe50b2fd46e406b28928369a5dc"
+    },
+    "src/nova_hei/app/web/mujoco/style.css": {
+      "mode": "100644",
+      "sha256": "145175c9c2b4434b713606bb1de9af496e9df40c3e3ced299742708e1348fa87"
+    },
+    "src/nova_hei/app/web/replay/replay.css": {
+      "mode": "100644",
+      "sha256": "428dce68d320b1c84536e30aa6856954bc0b7a1b646a51435fa5b3fc51d04e3a"
+    },
+    "src/nova_hei/app/web/replay/replay.html": {
+      "mode": "100644",
+      "sha256": "a6ebf3e97e6bed999153831bd643fc0b2ed460c7984d665e0df7cd30caceeb80"
+    },
+    "src/nova_hei/app/web/replay/replay.js": {
+      "mode": "100644",
+      "sha256": "091aff6eb0a160cefc6e8335218bca147570db092334a074756891471eb1b01f"
+    },
+    "src/nova_hei/contracts/__init__.py": {
+      "mode": "100644",
+      "sha256": "7a9391df71fc2382b277c317c542880684201f45f204d045f4d3b129ecf8d8ae"
+    },
+    "src/nova_hei/contracts/agent_backend.py": {
+      "mode": "100644",
+      "sha256": "af10cb669abdf12b25d826cf97b8599b42b916b0910c914cac55a2ebf7a7ddb9"
+    },
+    "src/nova_hei/contracts/detection.py": {
+      "mode": "100644",
+      "sha256": "729b9fa73473e15c2ab474013d390ecfc1cdf11ea8a23abfd1a1e77a5726ac85"
+    },
+    "src/nova_hei/contracts/robot.py": {
+      "mode": "100644",
+      "sha256": "b0fb8b9e9c97adf3481c7f071523fe064b6067af99ff582aa38455f2d215d5db"
+    },
+    "src/nova_hei/contracts/runtime.py": {
+      "mode": "100644",
+      "sha256": "c1ef5a6a60c949d2f60af2d25080e11a62119ffceab0462cc988fec0aa452ffa"
+    },
+    "src/nova_hei/contracts/transport.py": {
+      "mode": "100644",
+      "sha256": "ce3c5d30604a120d620497b663913cb51640e591b5e83bab4c09d5d07afc4a95"
+    },
+    "src/nova_hei/contracts/vln.py": {
+      "mode": "100644",
+      "sha256": "ddc4d3a5e5c3aa583f7296e35894f0bb0f76238897c5ac520e4116825555ebba"
+    },
+    "src/nova_hei/navigation/__init__.py": {
+      "mode": "100644",
+      "sha256": "a447ffa65429d49e930121bc716c178d4a199036deeb396b4ce32f275bd8e585"
+    },
+    "src/nova_hei/navigation/backend.py": {
+      "mode": "100644",
+      "sha256": "1ea5e7778f4fd8e7c70e25e328d0cb3214ea10f884db6fd2fc251f50812d03d8"
+    },
+    "src/nova_hei/navigation/progress.py": {
+      "mode": "100644",
+      "sha256": "4611a40ef61219320ccc7bd4ce86516570cc22bf21e55dc6e9c447eb6907d13d"
+    },
+    "src/nova_hei/navigation/runtime.py": {
+      "mode": "100644",
+      "sha256": "a2a3c59b85ddde1825152653a3ea40734d073a2ee610660c26acb55307564a6a"
+    },
+    "src/nova_hei/navigation/session.py": {
+      "mode": "100644",
+      "sha256": "14831f24477fecf61266b62cd80992166c9656fc4fe38eb7823f70e0044547c9"
+    },
+    "src/nova_hei/robots/__init__.py": {
+      "mode": "100644",
+      "sha256": "4c9413a779a04ed51bee211df9bb85c4f0f8dccc812a90ef4b20c3fbf9e8cfdd"
+    },
+    "src/nova_hei/robots/go2/__init__.py": {
+      "mode": "100644",
+      "sha256": "f2f7483f5a62d814a0a7c8384dcd7c9aaae33eca2354acb90266f45d69ca7641"
+    },
+    "src/nova_hei/robots/go2/go2_adapter/go2_adapter/__init__.py": {
+      "mode": "100644",
+      "sha256": "021c6a31d9899cd555be8661eb1555f328bad02eb12eca8ec5f97d7fc4f69eeb"
+    },
+    "src/nova_hei/robots/go2/go2_adapter/go2_adapter/adapter_node.py": {
+      "mode": "100644",
+      "sha256": "0efd648a8271391ac54817af58d3b86ae6b637ecc14c0df7598694b764471444"
+    },
+    "src/nova_hei/robots/go2/go2_adapter/go2_adapter/safety.py": {
+      "mode": "100644",
+      "sha256": "417f7a382ee9392cd05c76deab5aa15b19e42b208262cd52fefa195bd5057042"
+    },
+    "src/nova_hei/robots/go2/go2_adapter/go2_adapter/unitree_client.py": {
+      "mode": "100644",
+      "sha256": "df2cae2a6ff34d4d47e0c4bf517ce0f865328d93cf540257f08e7fe355ec1842"
+    },
+    "src/nova_hei/robots/go2/go2_adapter/package.xml": {
+      "mode": "100644",
+      "sha256": "06f34f721981b66a3b44302ec34fce4b24b260cd0ebd108bbe38217b07665817"
+    },
+    "src/nova_hei/robots/go2/go2_adapter/resource/go2_adapter": {
+      "mode": "100644",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "src/nova_hei/robots/go2/go2_adapter/setup.cfg": {
+      "mode": "100644",
+      "sha256": "e31e57236583113e82efed9a64964ba7e2702a9f6682bd7741e371a82b7825dc"
+    },
+    "src/nova_hei/robots/go2/go2_adapter/setup.py": {
+      "mode": "100644",
+      "sha256": "c61d4a2099ac40b870c716e22c9323f6adab02c8c0dc0d6311578bed33580938"
+    },
+    "src/nova_hei/robots/go2/go2_adapter/test/test_runtime_limits.py": {
+      "mode": "100644",
+      "sha256": "17e8df63254591cb2d2d116d2be9d69881be3741919cfc7f819c55299ec0dd33"
+    },
+    "src/nova_hei/robots/go2/go2_adapter/test/test_safety.py": {
+      "mode": "100644",
+      "sha256": "b162435b3483487b7665878b8c75e09e46c22ace7fd59684ff321669c544a717"
+    },
+    "src/nova_hei/robots/go2/go2_adapter/test/test_unitree_client.py": {
+      "mode": "100644",
+      "sha256": "2bee07b620713a568b1eaaae1958fdb30ce51204a19887d468edf748c12dd702"
+    },
+    "src/nova_hei/robots/go2/robot.py": {
+      "mode": "100644",
+      "sha256": "393dfc7e7c510aca4099c5f3475f60cdac68ebb69e8b5a5c54fce55f65e0b0fd"
+    },
+    "src/nova_hei/robots/go2/vln_mpc/package.xml": {
+      "mode": "100644",
+      "sha256": "638f73b7db278b98b774c815013052fc09bd3d6ee0a7b2683f7e5a871c883eac"
+    },
+    "src/nova_hei/robots/go2/vln_mpc/resource/vln_mpc": {
+      "mode": "100644",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "src/nova_hei/robots/go2/vln_mpc/setup.cfg": {
+      "mode": "100644",
+      "sha256": "f412d6e7b628dbf383bb2353e029a33bc002b64c36d74ac073dc66b5a923b611"
+    },
+    "src/nova_hei/robots/go2/vln_mpc/setup.py": {
+      "mode": "100644",
+      "sha256": "362716fb057ec2ffeaf15af69c7abb7dcc57a4af4ccd38aaf0427100cb3ff763"
+    },
+    "src/nova_hei/robots/go2/vln_mpc/test/test_geometry.py": {
+      "mode": "100644",
+      "sha256": "0a0c049c0fa782bb8f00d572066e5c3c75e95325db5068cf448e13a8729069a4"
+    },
+    "src/nova_hei/robots/go2/vln_mpc/test/test_mpc.py": {
+      "mode": "100644",
+      "sha256": "f22166bc333ff1f011871f54704e1de31881fe4e5e5c32837cc48bbfbabb9984"
+    },
+    "src/nova_hei/robots/go2/vln_mpc/test/test_mpc_node.py": {
+      "mode": "100644",
+      "sha256": "069251b4535944a5e477c7bc62dde036d12e81a375d007ff6746abe0d60e21e2"
+    },
+    "src/nova_hei/robots/go2/vln_mpc/vln_mpc/__init__.py": {
+      "mode": "100644",
+      "sha256": "428e0f21ec675ca2b81d5dd2d08b3b3477078fa79c7cf0e7c8034f26392b7749"
+    },
+    "src/nova_hei/robots/go2/vln_mpc/vln_mpc/geometry.py": {
+      "mode": "100644",
+      "sha256": "af72a6ebca4ff18b3d1a09b69583c431d6cbdd071c478945cbe9aa45690d3a14"
+    },
+    "src/nova_hei/robots/go2/vln_mpc/vln_mpc/mpc.py": {
+      "mode": "100644",
+      "sha256": "fe97c24c6eb5ec443892ea8e6719493390a448ed036cebac1fcbd213c795c0a8"
+    },
+    "src/nova_hei/robots/go2/vln_mpc/vln_mpc/mpc_node.py": {
+      "mode": "100644",
+      "sha256": "49f7c64c48ecb5488bafde3ea00c9addc27f82cf2ba763e1b84394822a08074f"
+    },
+    "src/nova_hei/robots/mujoco/__init__.py": {
+      "mode": "100644",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "src/nova_hei/robots/mujoco/executor.py": {
+      "mode": "100644",
+      "sha256": "a233f3ae7539452d5ea5fc7e8f2f53291bbd13549e483c3b4be03d2082b3da62"
+    },
+    "src/nova_hei/robots/mujoco/local_navigation.py": {
+      "mode": "100644",
+      "sha256": "b58fb413bce97265ad46733e665afe76c607496da5a808e9ac269477890ffb3c"
+    },
+    "src/nova_hei/robots/mujoco/mujoco_safe.py": {
+      "mode": "100644",
+      "sha256": "193b5d93dbab833d3b58eb529ec76edfa69e3ecad35acca6dcbc33db914d46eb"
+    },
+    "src/nova_hei/robots/mujoco/recovery.py": {
+      "mode": "100644",
+      "sha256": "cc701589e1c251c13e075cd24b7f16575c4b2bf582707c8e91ee5d97ce966766"
+    },
+    "src/nova_hei/robots/mujoco/robot.py": {
+      "mode": "100644",
+      "sha256": "4d9b9333e8723b2ec1ae995fbd47e65ad0e7e0229ac8a3cdc756b0da6b4ab3b4"
+    },
+    "src/nova_hei/robots/mujoco/runtime.py": {
+      "mode": "100644",
+      "sha256": "55b38cf66a63572aff9594671b2f54f3f154bd6785bdeca0327db5ff7d10bbe0"
+    },
+    "src/nova_hei/robots/mujoco/verify.py": {
+      "mode": "100644",
+      "sha256": "28b34cb91cdbb80407947565db5064f00c2795e0abc80a9d022c6468f713638b"
+    },
+    "src/nova_hei/vln/__init__.py": {
+      "mode": "100644",
+      "sha256": "936fab0ab334cbf154d8a4fa16e9b79777e76b5c5bffbce6c94f90cab5784c7b"
+    },
+    "src/nova_hei/vln/lightnav/__init__.py": {
+      "mode": "100644",
+      "sha256": "0266c51ef988e52387cac7b867e980a91d54a935ef08d36b6110cfddbb50efa4"
+    },
+    "src/nova_hei/vln/lightnav/client.py": {
+      "mode": "100644",
+      "sha256": "25424524d2aefa64acb7e314c3c3eb6dcea6a35ca2d8f9e5c46906935fa1b77a"
+    },
+    "src/nova_hei/vln/lightnav/instructions.py": {
+      "mode": "100644",
+      "sha256": "b2892d8f43d0e6e01d0c314f1c5d79b78782c45a2be9b15f89b4d97945b5e854"
+    },
+    "src/nova_hei/vln/lightnav/transport.py": {
+      "mode": "100644",
+      "sha256": "b87063d8252efb1443313ab852a746602e3191aee38d7ba93630c992eeecf1f1"
+    },
+    "src/nova_hei/vln/lightnav/vln_client/package.xml": {
+      "mode": "100644",
+      "sha256": "1837824a2d504fd78a29ec630a4b158599632665e70263323369d2bf27b73a29"
+    },
+    "src/nova_hei/vln/lightnav/vln_client/resource/vln_client": {
+      "mode": "100644",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "src/nova_hei/vln/lightnav/vln_client/setup.cfg": {
+      "mode": "100644",
+      "sha256": "f20c26a5e4cdbee52542030d0af11ececc9a2fc8316c8ded0a489f14128784cf"
+    },
+    "src/nova_hei/vln/lightnav/vln_client/setup.py": {
+      "mode": "100644",
+      "sha256": "00631c66a8e6f1f88cd93fd8d89b2025f5ce9cab969e1b8ded9a9a99a4b9804a"
+    },
+    "src/nova_hei/vln/lightnav/vln_client/test/test_vln_client.py": {
+      "mode": "100644",
+      "sha256": "d6a414851c4e20fbb15dc2d2f547adce4b53c60018d2020a638119cc13ec5130"
+    },
+    "src/nova_hei/vln/lightnav/vln_client/vln_client/__init__.py": {
+      "mode": "100644",
+      "sha256": "2c6a9fabc1e4cce6c77a6a6f34cfb91ef526676744c61c2f7bd8ca2850771da1"
+    },
+    "src/nova_hei/vln/lightnav/vln_client/vln_client/vln_client.py": {
+      "mode": "100644",
+      "sha256": "b0b73f493b357e147cd329730692e19ec683d2f4c1e2b63b71e3223701550ba6"
+    },
+    "src/nova_hei/vln/lightnav/vln_client/vln_client/vln_node.py": {
+      "mode": "100644",
+      "sha256": "3a6c09f90eb0574593305ccc70d69a15bb402d3885b1e571087eb6cbd317562b"
+    },
+    "tests/__init__.py": {
+      "mode": "100644",
+      "sha256": "7dffc3c9b38fa431cf9cb82d45ee2133b610ec2b3ede483061cf427183b94c14"
+    },
+    "tests/agent_tests/behavior.json": {
+      "mode": "100644",
+      "sha256": "77c9906195be5d7c0e59c5e089dcaf88c4f851f96b394ba4a72c149e74fff3d6"
+    },
+    "tests/agent_tests/refactor_behavior.json": {
+      "mode": "100644",
+      "sha256": "8bf5847b5791775f85ff9fdb1e0db94be22d3b081193639667a117b611f78116"
+    },
+    "tests/agent_tests/test_adaptive_exploration.py": {
+      "mode": "100644",
+      "sha256": "980d50c5dd17b45db11f558b5d9fc2fe35540f22babaf5e342ed3d76dee8334d"
+    },
+    "tests/agent_tests/test_backend_interface.py": {
+      "mode": "100644",
+      "sha256": "94e5d72a6189751bc511f8710c6dfd66735479ac6e7d2814fbdd88684f7b9e56"
+    },
+    "tests/agent_tests/test_completion_verification.py": {
+      "mode": "100644",
+      "sha256": "fbde859b01f39996b0c000c7ad0e77ce811a4df86ca5b70026f3f298abbc0140"
+    },
+    "tests/agent_tests/test_configuration.py": {
+      "mode": "100644",
+      "sha256": "57e5ecac6c1483bc6c0f2bf0c06eb345913b81fc9a8b3b7d04a87a4989870859"
+    },
+    "tests/agent_tests/test_decision_empty_fields.py": {
+      "mode": "100644",
+      "sha256": "676a83b82cb936d30c78a490c4da5b207a00c92fb843e34d161d8e2d9a27e7dd"
+    },
+    "tests/agent_tests/test_exploration.py": {
+      "mode": "100644",
+      "sha256": "420fe716bb9dd92c51c5bd2949555bd1977b6393e197e14d8befc49a891f3f25"
+    },
+    "tests/agent_tests/test_exploration_session.py": {
+      "mode": "100644",
+      "sha256": "4a08f98185a3db245a9513714b011022c8116007fcddad6c0eafd5bbe745800a"
+    },
+    "tests/agent_tests/test_history.py": {
+      "mode": "100644",
+      "sha256": "f8ad0c2e30f4033bf29fc6d2f3fcb56a1b9ce3e1b00b3c4f11e15046de583e50"
+    },
+    "tests/agent_tests/test_log_report.py": {
+      "mode": "100644",
+      "sha256": "653bc06664a184bb3fb377d6ff8418a0843d305e7d85ff1d96e1b61546ecea47"
+    },
+    "tests/agent_tests/test_loop.py": {
+      "mode": "100644",
+      "sha256": "21f2431de7eadbbe0d78a794922baa0f1b1220b504e07b5620eedb7789e026c0"
+    },
+    "tests/agent_tests/test_memory_visualize.py": {
+      "mode": "100644",
+      "sha256": "17b656e37c539097180cfd46d1f3e217c3ab0c578abdf6c4e477e0fec41010c9"
+    },
+    "tests/agent_tests/test_model_client.py": {
+      "mode": "100644",
+      "sha256": "04180e9e4847081a19c1c484b9758ba21d1c0d67ce4eaff6e8513858a901fadd"
+    },
+    "tests/agent_tests/test_navigation_execution.py": {
+      "mode": "100644",
+      "sha256": "2ac46cad5b03b3ffe02cc9a8b5396bf2f6e90ebacfd96099e6eb64a5ce82aa5c"
+    },
+    "tests/agent_tests/test_recorded_exploration.py": {
+      "mode": "100644",
+      "sha256": "a87965d93243188784f4ef4e6f48b32e65ce86f3f79978a7304185ac9b583ffd"
+    },
+    "tests/agent_tests/test_refactor_behavior.py": {
+      "mode": "100644",
+      "sha256": "d7098e54e3fc0f4cd62f96c972e3dd826a4659978650e566d28aa61efdb7c79a"
+    },
+    "tests/agent_tests/test_runtime_settings.py": {
+      "mode": "100644",
+      "sha256": "e837ee3d5bd922a1ee831aebb0e13fd04c01d13426aed0a4537e255ae91d3ed6"
+    },
+    "tests/agent_tests/test_scene_policy.py": {
+      "mode": "100644",
+      "sha256": "6ebd3eac285af811e7dd5ff03ad2b6f584ee86cf0585dd793218439748b96e49"
+    },
+    "tests/agent_tests/test_scheduling.py": {
+      "mode": "100644",
+      "sha256": "ac1bef107376aba2ec1c916d4c227a21922596e27849ca7a7e412f5affdac130"
+    },
+    "tests/agent_tests/test_service.py": {
+      "mode": "100644",
+      "sha256": "dfeac8edad3f1fa9f92614523ecc3c287220275f51d3df53bfe8927eb02b1596"
+    },
+    "tests/agent_tests/test_skill_selection.py": {
+      "mode": "100644",
+      "sha256": "3fe0f6d931ed7f863cf9c5eb66b074eee7a77dac385eacf93b3b48240a809437"
+    },
+    "tests/agent_tests/test_spatial_memory.py": {
+      "mode": "100644",
+      "sha256": "7330ec4b16b6d92a9a9612ca3fd110bd0bee0306b6188b694ea4e867b5d31c47"
+    },
+    "tests/agent_tests/test_standalone.py": {
+      "mode": "100644",
+      "sha256": "057fbe5f919a1eecca3069d9747b711b86c7414fee40a72a5d4f69bc76e60cbd"
+    },
+    "tests/agent_tests/test_target_tracking.py": {
+      "mode": "100644",
+      "sha256": "c4447fef06d328877458201a8e53bcbd305510ca651f929c0f99fcccd72cec1f"
+    },
+    "tests/agent_tests/test_target_watch.py": {
+      "mode": "100644",
+      "sha256": "96896c393920a7fe388b0a85cd6c165567579037f6f4e6c4918bdad27f07be96"
+    },
+    "tests/agent_tests/test_terminal_log.py": {
+      "mode": "100644",
+      "sha256": "d105aa28c5662dc96fe5338e734cd2a6bce68430c98605a57aea7fa21edc93bc"
+    },
+    "tests/agent_tests/test_trajectory_memory.py": {
+      "mode": "100644",
+      "sha256": "a28ac876802271446d43ccb934fe3e5f5fa3b46c2b02c125ac41b30dc0b07bc7"
+    },
+    "tests/backend_support.py": {
+      "mode": "100644",
+      "sha256": "629e4f3c956eebbebd06857a2572758aade499f7990af0af135de1ac2932014d"
+    },
+    "tests/benchmark_simulation.py": {
+      "mode": "100644",
+      "sha256": "6f8d7fa49f8c1923b787f24c69d3c4da735c38d332b2c4a3cb7396624c012398"
+    },
+    "tests/compare_object_search.py": {
+      "mode": "100644",
+      "sha256": "0458f7f73e9e5ee6a26d5a27b3d53e137820b37c8629339a75d995960669252c"
+    },
+    "tests/config_support.py": {
+      "mode": "100644",
+      "sha256": "858867b79077ed5d6ab4a6ab819200e7362ed35144a59290113c794f589d8338"
+    },
+    "tests/contracts_tests/test_agent_behavior.py": {
+      "mode": "100644",
+      "sha256": "fe949ee5c1e0bee329390590546f847d4ca2a209e102acc3851c497f96c61d78"
+    },
+    "tests/contracts_tests/test_backend.py": {
+      "mode": "100644",
+      "sha256": "e6d7db79f2805906dca37c1bd27a815599096a31e0d7a121276d41abe0dc4642"
+    },
+    "tests/contracts_tests/test_connection_check.py": {
+      "mode": "100644",
+      "sha256": "57d9e4445f6aa1534601d278d2af991c28a2e0b0336b6f45e7ff2ba0dbdebe95"
+    },
+    "tests/contracts_tests/test_dependencies.py": {
+      "mode": "100644",
+      "sha256": "fc2b9bf8aa4e2f7b219788ff8417173ba730cbdae6697d096862aff7fc4d6fed"
+    },
+    "tests/contracts_tests/test_go2.py": {
+      "mode": "100644",
+      "sha256": "661d5783e4be273f122287a13eac102d7b52f05fab7f3630e629604e1d97fb2e"
+    },
+    "tests/contracts_tests/test_go2_recording.py": {
+      "mode": "100644",
+      "sha256": "889861f47fe5948255b25eac09b929d5af92851eaa0183b95f5ebd82deeee58d"
+    },
+    "tests/contracts_tests/test_motion_settings.py": {
+      "mode": "100644",
+      "sha256": "b7cf5d098acc494270dd2f513a62146366fb5a165507bcb01f149d3250077c9e"
+    },
+    "tests/contracts_tests/test_navigation_tools.py": {
+      "mode": "100644",
+      "sha256": "e41199e2449e967d201d70a07ea1615fe7a61436a180bc2eaeeca4bfd55b9fbc"
+    },
+    "tests/contracts_tests/test_robot_adapters.py": {
+      "mode": "100644",
+      "sha256": "5c009a910f6cec2a222cc0c8a61efc693d7fafcc80ff9babd1f12276b271a986"
+    },
+    "tests/contracts_tests/test_runtime.py": {
+      "mode": "100644",
+      "sha256": "0232c4365adc4dc0f19697e1e778709ae7878289a1b3e21b4d93b1ebd21c1311"
+    },
+    "tests/contracts_tests/test_service_integration.py": {
+      "mode": "100644",
+      "sha256": "1b34ed087bf8e824298aae9253ecdbf3cf2e3646ddd9b04a3b98641d7ffe2c47"
+    },
+    "tests/contracts_tests/test_settings.py": {
+      "mode": "100644",
+      "sha256": "1923aece39c4fc4bbbc64f26473d6b1469ce3d543b26cc9dc74c3c360160c4bd"
+    },
+    "tests/contracts_tests/test_vln_adapters.py": {
+      "mode": "100644",
+      "sha256": "4a6964f9510f1bc6d03af7932f4ceac6ddcf8f071ef35c4fba1694a83d2d8827"
+    },
+    "tests/deploy_tests/test_detector_service.py": {
+      "mode": "100644",
+      "sha256": "de34ad0c2ff19bb7b8108d79b087f7227558ed73726c6b5585c05a904645d7ac"
+    },
+    "tests/deploy_tests/test_launch.py": {
+      "mode": "100644",
+      "sha256": "0506b635b333a49b3a7c70ab48a3e49fb171872d0876eef70270450dafeddca8"
+    },
+    "tests/deploy_tests/test_make.py": {
+      "mode": "100644",
+      "sha256": "0171f4811289495fc20fef76876acc934bbe3fa743afc6c839236e1794355ead"
+    },
+    "tests/deploy_tests/test_package.py": {
+      "mode": "100644",
+      "sha256": "b5fc11e8d31a09ec0f4157cbb755a78d2a6b6d23b18a5a1bc78c610f5018e864"
+    },
+    "tests/evaluate_object_search.py": {
+      "mode": "100644",
+      "sha256": "b93f7ba112268b1e503ecdbb65bf0b4e1ba723fd9343b50a1c2c59207d33792d"
+    },
+    "tests/replay_navigation.py": {
+      "mode": "100644",
+      "sha256": "d5501ba24f6d824f65303c3a61751987da027252be6ea51a21f6fbc79afdd9d4"
+    },
+    "tests/run.py": {
+      "mode": "100644",
+      "sha256": "8063410351b40c43a76f0a8d58f0c471e70b21790889bdf0235612892233a380"
+    },
+    "tests/sim_tests/task_budget.test.cjs": {
+      "mode": "100644",
+      "sha256": "de4de8122fadcb40a788675333267ba1cf65ae59e0bb2a3ada62eefd428e857b"
+    },
+    "tests/sim_tests/test_console.py": {
+      "mode": "100644",
+      "sha256": "eec96b5f40610b44d5200e32c2decf8a20dd7459e88b543eab01719115f8f340"
+    },
+    "tests/sim_tests/test_history.py": {
+      "mode": "100644",
+      "sha256": "175c594cb3134cf986a952e1af4bad96363aa7a8044b12c84270fdbd73f6bc03"
+    },
+    "tests/sim_tests/test_lightnav_transport.py": {
+      "mode": "100644",
+      "sha256": "8c1704ec666d48df9b24428ea67983ffac2f2322b4d7971a1f24cb1d1e790ead"
+    },
+    "tests/sim_tests/test_local_navigation.py": {
+      "mode": "100644",
+      "sha256": "e48331b8c4ab4e4048130e8ad0911877e2eaa182285b9451257ff17fe7effc6d"
+    },
+    "tests/sim_tests/test_mujoco_safe.py": {
+      "mode": "100644",
+      "sha256": "90b0463d6c89a1eb333f3a71af0ed71dce3a4b0a9f25e9a852baa03f34e18f01"
+    },
+    "tests/sim_tests/test_recording.py": {
+      "mode": "100644",
+      "sha256": "468bc673960e79faca0194da121574e6f301849d8f7d1c90efe06f349370fa5d"
+    },
+    "tests/sim_tests/test_runtime.py": {
+      "mode": "100644",
+      "sha256": "01acbb7470a0e1b5e2d3f3ddea17fa5367b0a2a8759c812f2c0ca4ee54a70292"
+    },
+    "tests/sim_tests/test_vln_runs.py": {
+      "mode": "100644",
+      "sha256": "83b16f083cb69fdc070eddccffda8114e8b41d4fe30b84b0d4724ec65639b806"
+    },
+    "tests/support.py": {
+      "mode": "100644",
+      "sha256": "6dd3f326786dc7caccdd000efa4a533946e75837d2d3cf09613216ae0d56f9f3"
+    }
+  }
+}
